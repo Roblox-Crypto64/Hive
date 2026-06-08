@@ -790,7 +790,7 @@ void loop() {
             } else {
                 if (keyboard.isPaired()) {
                     delay(500);
-                    typeSlowly("To use HIVE connect to Hive (password Mowzer2013!) and go to hive.local");
+                    typeSlowly("To use HIVE connect to Hive (password hive) and go to hive.local");
                     delay(100);
                     keyboard.tap(KEY_RETURN);
                     digitalWrite(LED_PIN, HIGH);
